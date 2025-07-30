@@ -1,0 +1,18 @@
+# Python-specific ignores
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+*.egg-info/
+
+# Sensitive configs
+backend/config/chatgpt_cookies.json
+
+# Frontend ignores (if using Node.js/React)
+node_modules/
+*.log
+
+# Misc
+.DS_Store  # For macOS
+Thumbs.db  # For Windows
